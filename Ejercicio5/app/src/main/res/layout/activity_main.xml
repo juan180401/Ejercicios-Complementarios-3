@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LAY"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6CFF04"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFrame"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="176dp"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:onClick="onClickFrame"
+        android:text="Frame Layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="384dp"
+        android:onClick="onClickTable"
+        android:text="Table Layout"
+        android:drawableStart="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="314dp"
+        android:onClick="onClickRelative"
+        android:text="Relative Layout"
+        android:drawableStart="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGrid"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="455dp"
+        android:onClick="onClickGrid"
+        android:text="Grid Layout"
+        android:drawableStart="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="143dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="245dp"
+        android:onClick="onClickLinear"
+        android:text="Linear Layout"
+        android:drawableStart="@android:drawable/ic_media_play"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="413dp"
+        android:layout_height="57dp"
+        android:background="#00FBD6"
+        android:drawableStart="@drawable/ic_launcher_foreground"
+        android:drawableEnd="@drawable/ic_launcher_foreground"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:text="TIPOS DE LAYOUT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
